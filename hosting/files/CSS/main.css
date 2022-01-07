@@ -8,6 +8,17 @@ h1 {
   color: white;
 }
 
+label {
+display: block;
+    font: .9rem 'Fira Sans', sans-serif;
+    color: white;
+}
+
+input[type='submit'],
+label {
+    margin-top: 1rem;
+}
+
 .container {
   position:fixed;
   padding:0;
