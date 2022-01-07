@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="Tournament Vision">
+  <meta name="author" content="Tournament Vision">
+
+  <link rel="icon" href="/favicon1.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./CSS/main.css">
+  <script>
+      function newLocation(x) {
+          console.log(x);
+          console.log(window.location.href);
+          window.location.href=x;
+      }
+    </script>
+</head>
+
+<body>
+  <center><h1>Welcome to our fancy page</h1></center>
+  <div class = login>
+  <!--<button onclick="window.location.href = 'createAccount/login.html'">Log In</button>
+  <button onclick="window.location.href = 'createAccount/signup.html'">Sign In</button>
+-->
+<input type="button" value="Login" onclick="newLocation('./createAccount/login.html')">
+<input type="button" value="Signup" onclick="newLocation('./createAccount/signup.html')">
+
+</div>
+  <script>console.log("test")</script>
+</body>
+</html>

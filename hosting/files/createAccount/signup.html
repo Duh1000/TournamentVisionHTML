@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            label {
+            display: block;
+                font: .9rem 'Fira Sans', sans-serif;
+            }
+
+            input[type='submit'],
+            label {
+                margin-top: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+        </div>
+
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="password">
+        </div>
+
+        <input id="button" type="submit" name="button" value="Sign Up"/>
+
+    </body>
+    <script src="https://unpkg.com/realm-web/dist/bundle.iife.js"></script>
+    <script type="module" src="main.js"></script>
+</html>
