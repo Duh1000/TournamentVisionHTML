@@ -1,0 +1,7 @@
+{
+    "enabled": true,
+    "custom_domain": "tournamentvision.com",
+    "app_default_domain": "tournamentvision-ozzus.mongodbstitch.com",
+    "default_error_path": "/404.html",
+    "default_error_code": "404"
+}
