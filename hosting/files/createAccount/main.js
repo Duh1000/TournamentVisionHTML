@@ -1,12 +1,13 @@
-import * as Realm from "realm-web";
+const app = new Realm.App({ id: "tournamentvisionwebsite-kkmpt" });
 
-const app = new Realm.App({ id: "tournamentvision-ozzus" });
-
-console.log("HERE");
-
-document.getElementById('button').onclick = function() {
-    alert("button was clicked");
-    const email = "ch318221@g.risd.org";
-    const password = "Password";
+async function createAccount(email, password) {
+    console.log(email);
+    console.log(password);
     await app.emailPasswordAuth.registerUser({ email, password });
- };
+}
+
+document.getElementById('signupbtn').onclick = function() {
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+    createAccount(email,password);
+};
