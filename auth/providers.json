@@ -11,7 +11,7 @@
             "autoConfirm": false,
             "emailConfirmationUrl": "https://www.tournamentvision.com/verifyEmail/",
             "resetFunctionName": "resetFunc",
-            "resetPasswordUrl": "https://www.tournamentvision.com/resetPassword/",
+            "resetPasswordUrl": "https://www.tournamentvision.com/changePassword/",
             "runConfirmationFunction": false,
             "runResetFunction": false
         },
