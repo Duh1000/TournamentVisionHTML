@@ -1,7 +1,7 @@
 {
-    "app_id": "tournamentvision-ozzus",
+    "app_id": "tournamentvisionwebsite-kkmpt",
     "config_version": 20210101,
-    "name": "TournamentVision",
+    "name": "TournamentVisionWebsite",
     "location": "US-VA",
     "deployment_model": "LOCAL"
 }

@@ -8,8 +8,12 @@
         "name": "local-userpass",
         "type": "local-userpass",
         "config": {
-            "emailConfirmationUrl": "https://www.tournamentvision.com/confirmEmail",
-            "resetPasswordUrl": "https://www.tournamentvision.com/resetPassword"
+            "autoConfirm": false,
+            "emailConfirmationUrl": "https://www.tournamentvision.com/verifyEmail/",
+            "resetFunctionName": "resetFunc",
+            "resetPasswordUrl": "https://www.tournamentvision.com/resetPassword/",
+            "runConfirmationFunction": false,
+            "runResetFunction": false
         },
         "disabled": false
     }
