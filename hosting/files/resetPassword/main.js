@@ -7,5 +7,5 @@ async function sendResetPasswordEmail(email) {
 
 document.getElementById('rstpswbtn').onclick = function() {
     const password = document.getElementById("email").value;
-    resetPassword(password);
+    sendResetPasswordEmail(password);
 };
