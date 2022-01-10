@@ -3,5 +3,9 @@
         "name": "resetFunc",
         "private": false,
         "can_evaluate": {}
+    },
+    {
+        "name": "updateCollectionView",
+        "private": false
     }
 ]
