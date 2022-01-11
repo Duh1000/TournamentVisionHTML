@@ -6,10 +6,13 @@ async function createAccount(email, password) {
     try{
       let userRead = "";
 
-      await app.emailPasswordAuth.registerUser({ email, password });
+      const result = await app.emailPasswordAuth.registerUser({ email, password });
       //add a promise return
+      console.log("yay");
+      userRead = "Successfully signed up";
+      document.getElementById("error").innerHTML = userRead;
 
-      userRead = "Created successfully";
+      return result;
     } catch(error) {
       console.log("already exists");
       console.log(error.statusCode);
@@ -27,6 +30,7 @@ async function createAccount(email, password) {
     }
     document.getElementById("error").innerHTML = userRead;
 }
+
 
 document.getElementById('signupbtn').onclick = function() {
     const email = document.getElementById("email").value;
