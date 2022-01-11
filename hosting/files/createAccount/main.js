@@ -1,8 +1,6 @@
 const app = new Realm.App({ id: "tournamentvisionwebsite-kkmpt" });
 
 async function createAccount(email, password) {
-    console.log(email);
-    console.log(password);
     try{
       let userRead = "";
 
