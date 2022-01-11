@@ -19,12 +19,18 @@
   <link rel="stylesheet" href="../CSS/main.css">
   <link rel="stylesheet" href="../../CSS/main.css">
   <script>
-  console.log(window.location.href);
+  //console.log(window.location.href);
   let curURL =  window.location.href;
-  const arr = curURL.split("/");
-  console.log(arr);
-  arr.splice(3,1);
-  console.log(arr.join("/"));
+  if(!(curURL == "https://www.tournamentvision.com/404/")){
+    const arr = curURL.split("/");
+    arr.splice(3,1);
+    let newURL = arr.join("/");
+    console.log(newURL);
+    window.location.replace(newURL);
+  } els {
+    console.log("good");
+  }
+
   </script>
 </head>
 
