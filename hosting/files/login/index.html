@@ -4,15 +4,20 @@
     <head>
         <meta charset="utf-8">
         <script src="https://unpkg.com/realm-web@1.5.1/dist/bundle.iife.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
         <link rel="stylesheet" href="../CSS/main.css">
     </head>
     <body>
-        <label for="email"><b>Email</b></label> <br>
-        <input type="text" id="email" placeholder="Enter Email" name="email" required> <br> <br>
 
-        <label for="psw"><b>Password</b></label> <br>
-        <input type="password" id="password" placeholder="Enter Password" name="password" required> <br> <br>
-
+        <p>
+          <label for="email"><b>Email</b></label> <br>
+          <input type="text" id="email" placeholder="Enter Email" name="email" required> <br> <br>
+        </p>
+        <p>
+          <label for="psw"><b>Password</b></label> <br>
+          <input type="password" id="password" placeholder="Enter Password" name="password" required>
+          <i class="far fa-eye" id="togglePassword"></i>
+        </p>
         <button id="loginbtn" type="submit" class="loginbtn">Log In</button>
 
         <a href="https://www.tournamentvision.com/resetPassword/">Forgot my password</a>

@@ -7,11 +7,24 @@
         <link rel="stylesheet" href="../CSS/main.css">
     </head>
     <body>
-        <label for="psw"><b>New Password</b></label> <br>
-        <input type="password" id="password" placeholder="Enter Password" name="password" required> <br> <br>
-
-        <button id="rstpswbtn" type="submit" class="rstpswbtn">Reset Password</button>
+      <p>
+        <label for="psw"><b>Password</b></label> <br>
+        <input type="password" id="password" placeholder="Enter Password" name="password" required>
+        <i class="far fa-eye" id="togglePassword"></i>
+      </p>
+      <button id="rstpswbtn" type="submit" class="rstpswbtn">Reset Password</button>
 
         <script src="main.js"></script>
     </body>
 </html>
+
+<p>
+  <label for="email"><b>Email</b></label> <br>
+  <input type="text" id="email" placeholder="Enter Email" name="email" required> <br> <br>
+</p>
+<p>
+  <label for="psw"><b>Password</b></label> <br>
+  <input type="password" id="password" placeholder="Enter Password" name="password" required>
+  <i class="far fa-eye" id="togglePassword"></i>
+</p>
+<button id="loginbtn" type="submit" class="loginbtn">Log In</button>
